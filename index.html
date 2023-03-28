@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhaly Hairdresser</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#home" class="logo"> <img src="images/logo.png" alt=""> </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+
+    <!-- navbar section  -->
+
+    <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="#home">Home</a>
+        <a href="#gallery">galleria</a>
+        <a href="#team">Equipo</a>
+        <a href="#arrivals">Productos</a>
+        <a href="#Footer">Contacto</a>
+    </nav>
+
+    <!-- navbar section  -->
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="slide active">
+            <div class="content">
+                <img src="images/content-img-1.png" alt="">
+                <span>Recien llegado el 2023</span>
+                <h3>estiliza tu cabello</h3>
+                <a href="#" class="btn">Leer Más</a>
+                <div class="controls">
+                    <div class="fas fa-angle-left" onclick="prev()"></div>
+                    <div class="fas fa-angle-right" onclick="next()"></div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/home-img-1.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <img src="images/content-img-2.png" alt="">
+                <span>La moda pasa</span>
+                <h3>El estilo, jamás</h3>
+                <a href="#" class="btn">Leer Más</a>
+                <div class="controls">
+                    <div class="fas fa-angle-left" onclick="prev()"></div>
+                    <div class="fas fa-angle-right" onclick="next()"></div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/home-img-2.png" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <img src="images/content-img-3.png" alt="">
+                <span>Porque nosotros sí sabemos lo que significa:</span>
+                <h3> “Solo las puntas”</h3>
+                <a href="#" class="btn">Leer Más</a>
+                <div class="controls">
+                    <div class="fas fa-angle-left" onclick="prev()"></div>
+                    <div class="fas fa-angle-right" onclick="next()"></div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/home-img-3.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- category section starts  -->
+
+    <section class="category">
+
+        <a href="#" class="box">
+            <img src="images/category-1.png" alt="">
+            <p>cosméticos</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-2.png" alt="">
+            <p>makeup</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-3.png" alt="">
+            <p>secado</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-4.png" alt="">
+            <p>loción</p>
+        </a>
+
+        <a href="#" class="box">
+            <img src="images/category-6.png" alt="">
+            <p>planchado</p>
+        </a>
+
+    </section>
+
+    <!-- category section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <div class="content">
+            <span>¿Por qué elegirnos?</span>
+            <h3>Tu peinado hace la diferencia</h3>
+            <p>Cuando se trata de cambiar de look sin modificar nuestra cabellera, los peinados resultan
+                la mejor opción. Son ideales para transformar cualquier estilo y darle un toque más
+                glamouroso al instante.
+            </p>
+            <a href="#" class="btn">Leer Más</a>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <div class="heading">
+            <h1>Nuesta Galería</h1>
+            <p>Así como existen opciones que son perfectas para disimular una frente amplia o lucir más joven,
+                hay otras que se ven increíbles en las mujeres que tienen 30 años o más.
+            </p>
+        </div>
+
+        <div class="lightbox">
+            <a href="images/img-1.jpg"><img src="images/img-1.jpg" alt=""></a>
+            <a href="images/img-2.jpg"><img src="images/img-2.jpg" alt=""></a>
+            <a href="images/img-3.jpg"><img src="images/img-3.jpg" alt=""></a>
+            <a href="images/img-4.jpg"><img src="images/img-4.jpg" alt=""></a>
+            <a href="images/img-5.jpg"><img src="images/img-5.jpg" alt=""></a>
+            <a href="images/img-6.jpg"><img src="images/img-6.jpg" alt=""></a>
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- team section starts  -->
+
+    <section class="team" id="team">
+
+        <div class="heading">
+            <h1>Nuestro Equipo de Trabajo</h1>
+            <p>Además de ayudarte a ahorrar tiempo, nuestro Equipo hará que te veas fantástica e impecable en cualquier
+                evento o temporada del año.
+            </p>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/team-1.png" alt="">
+                    <div class="share">
+                        <a href="https://www.facebook.com/josedaniel.portillofinol/" class="fab fa-facebook-f"></a>
+                        <a href="https://t.me/yuseppe" class="fab fa-telegram"></a>
+                        <a href="https://www.instagram.com/josed.portillo/" class="fab fa-instagram"></a>
+                        <a href="https://github.com/Yu13ppe" class="fab fa-github"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Allef Vinicius</h3>
+                    <p>Estilista Profesional</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/team-2.png" alt="">
+                    <div class="share">
+                        <a href="https://www.facebook.com/josedaniel.portillofinol/" class="fab fa-facebook-f"></a>
+                        <a href="https://t.me/yuseppe" class="fab fa-telegram"></a>
+                        <a href="https://www.instagram.com/josed.portillo/" class="fab fa-instagram"></a>
+                        <a href="https://github.com/Yu13ppe" class="fab fa-github"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Apostol Vamvouras</h3>
+                    <p>Artista en barbería</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/team-3.png" alt="">
+                    <div class="share">
+                        <a href="https://www.facebook.com/josedaniel.portillofinol/" class="fab fa-facebook-f"></a>
+                        <a href="https://t.me/yuseppe" class="fab fa-telegram"></a>
+                        <a href="https://www.instagram.com/josed.portillo/" class="fab fa-instagram"></a>
+                        <a href="https://github.com/Yu13ppe" class="fab fa-github"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Ryan Jacobson</h3>
+                    <p>Estilista Profesional</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- team section ends -->
+
+    <!-- arrivals section starts  -->
+
+    <section class="arrivals" id="arrivals">
+
+        <div class="heading">
+            <h1>¡Nuevos Productos!</h1>
+            <p>Cada peluquero tiene su propio estilo y esto es lo que hace de la peluquería una forma de arte.
+                Pero si te encuentras en la capacidad de convertirte en uno de nosotros, te ofrecemos nuestros
+                productos
+            </p>
+        </div>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Kit Ferrari Supreme Profesional</p>
+                        <div class="price">$49.99 <span>$79.99</span></div>
+                        <a href="#" class="btn">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Restaurador de Puntas Prolonger 15ML Loreal Professionnel</p>
+                        <div class="price">$19.99 <span>$24.99</span></div>
+                        <a href="#" class="btn">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Lavacabezas Peluquería Champ</p>
+                        <div class="price">$259.99 <span>$329.99</span></div>
+                        <a href="#" class="btn">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>CEP BRUSHING CAMALEON BAN00132 JRL</p>
+                        <div class="price">$14.99 <span>$19.99</span></div>
+                        <a href="#" class="btn">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Brocha de afeitar Lucydan</p>
+                        <div class="price">$14.99 <span>$19.99</span></div>
+                        <a href="#" class="btn">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>NAVAJIN T/FEATHER I-85 LUCYDAN</p>
+                        <div class="price">$9.99 <span>$14.99</span></div>
+                        <a href="#" class="btn">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-7.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Tijera de Corte FN Profesional 5.5" Golden Cobalt</p>
+                        <div class="price">$9.99 <span>$19.99</span></div>
+                        <a href="#" class="btn">Añadir al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="images/arrival-8.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Cera Efecto Brillante BARBER x 60ml</p>
+                        <div class="price">$8.99 <span>$12.99</span></div>
+                        <a href="#" class="btn">Añadir al carrito</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- arrivals section ends -->
+
+    <!-- service section starts  -->
+
+    <section class="service">
+
+        <div class="box">
+            <img src="images/service-1.png" alt="">
+            <h3>Envío Gratis</h3>
+            <p>Sin importan donde estes ubicado en la ciudad, cualquier producto que compres contará con envío gratis
+            </p>
+        </div>
+
+        <div class="box">
+            <img src="images/service-2.png" alt="">
+            <h3>Pago Seguro</h3>
+            <p>Puedes confiar en la seguridad de nuestro servico de pagos para adquirir cualquier producto de tu interés
+            </p>
+        </div>
+
+        <div class="box">
+            <img src="images/service-3.png" alt="">
+            <h3>Soporte 24/7</h3>
+            <p>Si necesitas ayuda puedes comunicarte con nuestro equipo de soporte, el cual se encuentra activo las 24
+                horas del día</p>
+        </div>
+
+    </section>
+
+    <!-- service section ends -->
+
+    <!-- footer section starts  -->
+
+    <div class="footer-dark">
+        <footer id="Footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Front-end Designer</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Tech Stack</h3>
+                        <ul>
+                            <li><a href="#">JavaScript | React | C++ | Java</a></li>
+                            <li><a href="#">MySQL</a></li>
+                            <li><a href="#">Illustrator | Photoshop</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>About Us</h3>
+                        <p>Hello! My name is Jose Portillo, I am 20 years old and I am a computer engineering student at the Dr. Rafael Belloso Chacín University (URBE), with an inclination towards front end web development</p>
+                    </div>
+                    <div class="col item social">
+                        <a href="https://www.t.me/yuseppe">
+                            <i class="icon ion-social-telegram">
+                                <img width="25em" src="./images/telegram-svgrepo-com.svg" alt="">
+                            </i>
+                        </a>
+                        <a href="https://github.com/Yu13ppe">
+                            <i class="icon ion-social-github">
+                                <img width="30em" src="./images/github-svgrepo-com.svg" alt="">
+                            </i>
+                        </a>
+                        <a href="mailto:joseportillo2002.jdpf@gmail.com">
+                            <i class="icon ion-social-gmail">
+                                <img width="28em" src="./images/inbox-svgrepo-com.svg" alt="">
+                            </i>
+                        </a>
+                        <a href="https://www.instagram.com/josed.portillo/">
+                            <i class="icon ion-social-instagram">
+                                <img width="35em" src="./images/instagram-svgrepo-com.svg" alt="">
+                            </i>
+                        </a>
+                    </div>
+                </div>
+                <p class="copyright">Jose Portillo © 2023</p>
+            </div>
+        </footer>
+    </div>
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link      -->
+    <script src="js/script.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery .lightbox'));
+    </script>
+
+</body>
+
+</html>
